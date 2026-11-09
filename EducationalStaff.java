@@ -1,4 +1,6 @@
+//add educationalstaff
 public class EducationalStaff extends Employee {
+
     public String category;
 
     public EducationalStaff() {

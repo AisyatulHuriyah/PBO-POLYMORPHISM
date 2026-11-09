@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+//add demo
+
 public class Demo {
     public static void main(String[] args) {
         Lecturer lecturer1 = new Lecturer("19940201", "Widia, S.Kom. M.Kom", "199402");

@@ -1,3 +1,4 @@
+// add lecturer
 public class Lecturer extends Employee {
     public String nidn;
 
