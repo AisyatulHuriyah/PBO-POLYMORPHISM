@@ -26,5 +26,20 @@ public class Demo {
         System.out.println(newLecturer.name);
         System.out.println(newLecturer.nidn);
         newLecturer.teach();
+
+        train(lecturer1);
+        train(educationalStaff1);
+    }
+
+
+    public static void train(Employee employee) {
+        System.out.println("\nGiva training to employee.");
+        employee.displayInfo();
+        System.out.println("Introducing campus environment.");
+        System.out.println("Give info about guideline");
+        
+        if (employee instanceof Lecturer) {
+            System.out.println("Give pedagogic training");
+        }
     }
 }
