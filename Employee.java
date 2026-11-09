@@ -12,7 +12,7 @@ public class Employee {
     }
 
     public void displayInfo() {
-        System.out.println("NIP  : " + nip);
-        System.out.println("Name : " + name);
+        System.out.println("NIP      : " + nip);
+        System.out.println("Name     : " + name);
     }
 }

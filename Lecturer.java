@@ -11,7 +11,7 @@ public class Lecturer extends Employee {
 
     public void displayInfo() {
         super.displayInfo();
-        System.out.println("NIDN: " + nidn);
+        System.out.println("NIDN     : " + nidn);
     }
 
     public void teach() {
